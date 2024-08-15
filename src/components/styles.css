@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(22, 20, 29);
+    color: aliceblue;
+}
+
+header {
+    background-color: #2B2E33;
+}
+
+
+.navbar {
+    background-color: rgb(22, 20, 29);
+}
+
+
+.custom-navbar {
+    border-bottom: 2px solid #D63384; 
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+    color: #FFF; 
+}
+
+.custom-navbar .navbar-brand:hover,
+.custom-navbar .nav-link:hover {
+    color: #D63384; 
+}
+
+.custom-navbar .navbar-nav .nav-link.active {
+    color: #D63384; 
+}
+
+.navbar-toggler-icon {
+    background-color: #D63384;
+}
+
+code:nth-child(1) {
+    background-color: rgba(128, 128, 128, 0.151);
+}
